@@ -15,12 +15,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rahul-portfolio.example.com"),
-  title: "Rahul — Strategic Product Leadership in Mobility & AI",
+  metadataBase: new URL("https://Prashant Mani-portfolio.example.com"),
+  title: "Prashant Mani — Strategic Product Leadership in Mobility & AI",
   description:
     "Building products at the intersection of Mobility, Logistics, AI, and SaaS. Strategizing EV infrastructure and driving data-led growth for fleet management systems.",
   openGraph: {
-    title: "Rahul — Strategic Product Leadership in Mobility & AI",
+    title: "Prashant Mani — Strategic Product Leadership in Mobility & AI",
     description:
       "Building products at the intersection of Mobility, Logistics, AI, and SaaS.",
     type: "website",

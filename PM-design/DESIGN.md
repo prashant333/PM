@@ -115,7 +115,7 @@ spacing:
 ---
 
 ## Brand & Style
-The design system is engineered for a high-level PM persona—Rahul—balancing technical depth with executive-ready business impact. It targets recruiters and stakeholders at top-tier tech firms by evoking a sense of strategic leadership and operational precision.
+The design system is engineered for a high-level PM persona—Prashant Mani—balancing technical depth with executive-ready business impact. It targets recruiters and stakeholders at top-tier tech firms by evoking a sense of strategic leadership and operational precision.
 
 The aesthetic follows a **Corporate Modern** approach with **Minimalist** and **Glassmorphic** undertones, inspired by the high-utility clarity of tools like Linear and Vercel. The interface should feel like a premium command center: focused, high-trust, and devoid of visual noise. It communicates "execution at scale" through meticulous alignment, generous whitespace, and a sophisticated color palette that prioritizes readability and professional gravitas.
 

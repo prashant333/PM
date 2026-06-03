@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="container-max flex h-16 items-center justify-between">
         <Link href="#" className="flex items-center gap-2 font-display text-body-lg font-semibold tracking-tight">
           <Gem className="h-5 w-5 text-primary" strokeWidth={2} />
-          Rahul
+          Prashant Mani
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">

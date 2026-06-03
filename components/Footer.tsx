@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 font-display text-body-lg font-semibold tracking-tight">
             <Gem className="h-5 w-5 text-primary" strokeWidth={2} />
-            Rahul
+            Prashant Mani
           </div>
           <p className="mt-3 max-w-xs text-body-md text-on-surface-variant">
             Strategic Product Leadership in Mobility &amp; AI.
@@ -38,7 +38,7 @@ export default function Footer() {
 
       <div className="border-t border-white/[0.06]">
         <div className="container-max py-6 text-label-sm text-on-surface-variant">
-          © 2026 Rahul Portfolio. All rights reserved.
+          © 2026 Prashant Mani Portfolio. All rights reserved.
         </div>
       </div>
     </footer>
