@@ -58,8 +58,8 @@ export const timeline = [
     featured: false,
   },
   {
-    title: "Operations Origins",
-    desc: "Mastering fleet efficiency, supply chain mechanics, and field logistics.",
+    title: "Data Engineering",
+    desc: "Building scalable data pipelines, optimizing data workflows, and transforming raw data into actionable business insights.",
     featured: false,
   },
 ];
