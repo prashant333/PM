@@ -141,7 +141,7 @@ export const featuredInitiative = {
   desc: "A high-performance middleware solution providing real-time visibility into operational bottlenecks for decentralized, global maintenance teams.",
   chips: ["Middleware", "Real-time Data"],
   cta: "Full Case Study",
-  image: "/images/initiatives/ops.png",
+  image: "/images/initiatives/ops1.png",
 };
 
 export type ToolkitGroup = {
@@ -159,7 +159,7 @@ export const toolkit: ToolkitGroup[] = [
   {
     icon: BarChart3,
     label: "Analytics",
-    items: ["SQL", "Tableau", "Mixpanel"],
+    items: ["SQL", "MongoDB", "Mixpanel"],
   },
   {
     icon: Code2,
@@ -169,7 +169,7 @@ export const toolkit: ToolkitGroup[] = [
   {
     icon: Star,
     label: "Leadership",
-    items: ["Stakeholder Mgmt", "GTM Strategy", "Mentorship"],
+    items: ["Stakeholder Mgmt", "GTM Strategy", "Roadmap"],
   },
 ];
 

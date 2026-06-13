@@ -73,7 +73,7 @@ export default function Initiatives() {
             key={it.title}
             className="card-reflective group overflow-hidden p-6 transition hover:border-primary/30"
           >
-            <Visual tone={it.tone} image={it.image} alt={it.title} className="h-48 w-full" />
+            <Visual tone={it.tone} image={it.image} alt={it.title} className="aspect-video w-full" />
             <span className="eyebrow mt-5 block">{it.tag}</span>
             <h3 className="mt-2 font-display text-headline-md font-semibold">
               {it.title}
@@ -98,7 +98,7 @@ export default function Initiatives() {
           tone="from-slate-800/60 via-surface-container to-surface-container"
           image={featuredInitiative.image}
           alt={featuredInitiative.title}
-          className="h-74 w-full"
+          className="h-80 w-full"
         />
         <div>
           <span className="eyebrow block">{featuredInitiative.tag}</span>
