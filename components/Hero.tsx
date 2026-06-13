@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowRight, Download } from "lucide-react";
 import { heroMetrics } from "@/lib/data";
 
@@ -29,9 +28,14 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="#work" className="btn-primary">
-              View Portfolio <ArrowRight className="h-4 w-4" strokeWidth={2} />
-            </Link>
+            <a
+              href="https://www.linkedin.com/in/prashant-mani/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              LinkedIN Profile <ArrowRight className="h-4 w-4" strokeWidth={2} />
+            </a>
             <a
               href="/Prashant-mani.pdf"
               download="Prashant-Mani-CV.pdf"
