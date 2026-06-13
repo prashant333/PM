@@ -1,5 +1,6 @@
 import { ArrowRight, Download } from "lucide-react";
 import { heroMetrics } from "@/lib/data";
+import { asset } from "@/lib/assetPath";
 
 export default function Hero() {
   return (
@@ -37,7 +38,7 @@ export default function Hero() {
               LinkedIN Profile <ArrowRight className="h-4 w-4" strokeWidth={2} />
             </a>
             <a
-              href="/Prashant-mani.pdf"
+              href={asset("/Prashant-mani.pdf")}
               download="Prashant-Mani-CV.pdf"
               className="btn-secondary"
             >

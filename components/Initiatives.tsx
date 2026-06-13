@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { initiatives, featuredInitiative } from "@/lib/data";
+import { asset } from "@/lib/assetPath";
 
 function CaseChips({ chips }: { chips: string[] }) {
   return (
@@ -32,7 +33,7 @@ function Visual({
     >
       {image ? (
         <Image
-          src={image}
+          src={asset(image)}
           alt={alt}
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"

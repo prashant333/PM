@@ -1,4 +1,5 @@
 import { ExternalLink, FileText, Send } from "lucide-react";
+import { asset } from "@/lib/assetPath";
 
 export default function Contact() {
   return (
@@ -19,7 +20,7 @@ export default function Contact() {
               LinkedIn Profile <ExternalLink className="h-4 w-4" strokeWidth={2} />
             </a>
             <a
-              href="/Prashant-mani.pdf"
+              href={asset("/Prashant-mani.pdf")}
               download="Prashant-Mani-CV.pdf"
               className="btn-secondary"
             >
