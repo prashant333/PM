@@ -15,10 +15,14 @@ export default function Contact() {
             impactful.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="#" className="btn-primary">
+            <a href="https://www.linkedin.com/in/prashant-mani/" target="blank" className="btn-primary">
               LinkedIn Profile <ExternalLink className="h-4 w-4" strokeWidth={2} />
             </a>
-            <a href="#" className="btn-secondary">
+            <a
+              href="/Prashant-mani.pdf"
+              download="Prashant-Mani-CV.pdf"
+              className="btn-secondary"
+            >
               <FileText className="h-4 w-4" strokeWidth={2} /> View Resume
             </a>
           </div>

@@ -19,7 +19,7 @@ export const navItems = [
 ];
 
 export const heroMetrics = [
-  { value: "6+ Yrs", label: "Direct Leadership" },
+  { value: "6+ Yrs", label: "Industry Experience" },
   { value: "3+", label: "Global Launches" },
   { value: "10k+ Tasks", label: "AI Orchestration Engine" },
 ];
@@ -154,7 +154,7 @@ export const toolkit: ToolkitGroup[] = [
   {
     icon: Settings2,
     label: "Management",
-    items: ["Agile/Scrum", "Jira/Linear", "Product Discovery"],
+    items: ["Agile/Scrum", "Jira/Asana", "Product Discovery"],
   },
   {
     icon: BarChart3,
@@ -164,12 +164,12 @@ export const toolkit: ToolkitGroup[] = [
   {
     icon: Code2,
     label: "Technical",
-    items: ["API Design", "System Design", "AI Evaluation"],
+    items: ["API Integration", "Python", "AI Evaluation"],
   },
   {
     icon: Star,
     label: "Leadership",
-    items: ["Stakeholder Mgmt", "GTM Strategy", "Roadmap"],
+    items: ["Stakeholder Management", "GTM Strategy", "Roadmap"],
   },
 ];
 
