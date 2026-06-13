@@ -32,9 +32,13 @@ export default function Hero() {
             <Link href="#work" className="btn-primary">
               View Portfolio <ArrowRight className="h-4 w-4" strokeWidth={2} />
             </Link>
-            <Link href="#" className="btn-secondary">
+            <a
+              href="/Prashant-mani.pdf"
+              download="Prashant-Mani-CV.pdf"
+              className="btn-secondary"
+            >
               <Download className="h-4 w-4" strokeWidth={2} /> Download CV
-            </Link>
+            </a>
           </div>
         </div>
 
