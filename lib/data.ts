@@ -26,7 +26,7 @@ export const heroMetrics = [
 
 export const marqueeItems = [
   "EV PLATFORM",
-  "LOGISTICS",
+  "OPERATIONS & MAINTENANCE",
   "FLEET MANAGEMENT",
   "AI OPERATIONS",
   "SAAS",
@@ -98,7 +98,7 @@ export const framework: FrameworkStep[] = [
   },
   {
     icon: Repeat,
-    title: "Measure and Iterate",
+    title: "Analyze and Iterate",
     desc: "Continuous feedback loops to refine the product post-launch and quantitative usage analytics.",
   },
 ];
@@ -110,6 +110,8 @@ export type Initiative = {
   chips: string[];
   cta: string;
   tone: string;
+  /** Path to a screenshot in /public. Falls back to the gradient placeholder if omitted. */
+  image?: string;
 };
 
 export const initiatives: Initiative[] = [
@@ -120,6 +122,7 @@ export const initiatives: Initiative[] = [
     chips: ["Fleet Visibility", "Operational Efficiency"],
     cta: "Read Case Study",
     tone: "from-sky-900/40 via-surface-container to-surface-container",
+    image: "/images/initiatives/screen1.png",
   },
   {
     tag: "SaaS & Fintech",
@@ -128,6 +131,7 @@ export const initiatives: Initiative[] = [
     chips: ["Revenue Ops", "Error Handling"],
     cta: "Read Case Study",
     tone: "from-emerald-900/30 via-surface-container to-surface-container",
+    image: "/images/initiatives/revenue.png",
   },
 ];
 
@@ -137,6 +141,7 @@ export const featuredInitiative = {
   desc: "A high-performance middleware solution providing real-time visibility into operational bottlenecks for decentralized, global maintenance teams.",
   chips: ["Middleware", "Real-time Data"],
   cta: "Full Case Study",
+  image: "/images/initiatives/ops.png",
 };
 
 export type ToolkitGroup = {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { initiatives, featuredInitiative } from "@/lib/data";
 
@@ -13,21 +14,41 @@ function CaseChips({ chips }: { chips: string[] }) {
   );
 }
 
-/** Placeholder visual — swap for a real screenshot/photo when available. */
-function Visual({ tone, className = "" }: { tone: string; className?: string }) {
+/** Renders a screenshot when `image` is provided, otherwise a gradient placeholder. */
+function Visual({
+  tone,
+  image,
+  alt = "",
+  className = "",
+}: {
+  tone: string;
+  image?: string;
+  alt?: string;
+  className?: string;
+}) {
   return (
     <div
       className={`relative overflow-hidden rounded-md border border-white/[0.06] bg-gradient-to-br ${tone} ${className}`}
     >
-      <div
-        aria-hidden
-        className="absolute inset-0 opacity-[0.18]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.6) 1px, transparent 1px)",
-          backgroundSize: "28px 28px",
-        }}
-      />
+      {image ? (
+        <Image
+          src={image}
+          alt={alt}
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="object-cover"
+        />
+      ) : (
+        <div
+          aria-hidden
+          className="absolute inset-0 opacity-[0.18]"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(255,255,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.6) 1px, transparent 1px)",
+            backgroundSize: "28px 28px",
+          }}
+        />
+      )}
     </div>
   );
 }
@@ -52,7 +73,7 @@ export default function Initiatives() {
             key={it.title}
             className="card-reflective group overflow-hidden p-6 transition hover:border-primary/30"
           >
-            <Visual tone={it.tone} className="h-48 w-full" />
+            <Visual tone={it.tone} image={it.image} alt={it.title} className="h-48 w-full" />
             <span className="eyebrow mt-5 block">{it.tag}</span>
             <h3 className="mt-2 font-display text-headline-md font-semibold">
               {it.title}
@@ -73,7 +94,12 @@ export default function Initiatives() {
 
       {/* Full-width featured card */}
       <article className="card-reflective mt-6 grid gap-6 overflow-hidden p-6 lg:grid-cols-2 lg:items-center lg:p-8">
-        <Visual tone="from-slate-800/60 via-surface-container to-surface-container" className="h-64 w-full" />
+        <Visual
+          tone="from-slate-800/60 via-surface-container to-surface-container"
+          image={featuredInitiative.image}
+          alt={featuredInitiative.title}
+          className="h-74 w-full"
+        />
         <div>
           <span className="eyebrow block">{featuredInitiative.tag}</span>
           <h3 className="mt-2 font-display text-headline-lg font-semibold tracking-tight">

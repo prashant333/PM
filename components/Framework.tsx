@@ -35,7 +35,7 @@ export default function Framework() {
               </p>
             </div>
           );
-        })}``
+        })}
       </div>
     </section>
   );
