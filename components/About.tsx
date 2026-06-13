@@ -13,11 +13,16 @@ export default function About() {
 
           <div className="mt-6 space-y-4 text-body-md text-on-surface-variant">
             <p>
-              My journey started in high-stakes operational roles where I learned
+              {/* My journey started in high-stakes operational roles where I learned
               that the most elegant technology fails without sound logistics.
               Transitioning to Product Management, I brought that &ldquo;boots on the
               ground&rdquo; reality to every roadmap, ensuring technical solutions
-              translated to real-world performance.
+              translated to real-world performance. */}
+              My journey began in Data Engineering, where I built a strong foundation in 
+              data systems, analytics, and scalable technology. Transitioning into 
+              Product Management allowed me to combine technical depth with customer and 
+              business needs, ensuring solutions are both technically sound and impactful 
+              in the real world.
             </p>
             <p>
               Today, I lead cross-functional squads to solve complex mobility

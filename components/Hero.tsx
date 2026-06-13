@@ -20,7 +20,7 @@ export default function Hero() {
 
           <h1 className="mt-6 font-display text-[40px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-5xl lg:text-display-lg">
             Building products at the intersection of{" "}
-            <span className="text-primary">Mobility, Logistics, AI, and SaaS.</span>
+            <span className="text-primary">Sustainability, Mobility, AI, and SaaS.</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-body-lg text-on-surface-variant">
