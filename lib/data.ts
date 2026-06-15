@@ -48,17 +48,17 @@ export const timeline = [
     featured: true,
   },
   {
-    title: "PM Growth & Strategy",
+    title: "Kazam EV Tech (2024 - Present) PM Growth & Strategy",
     desc: "Scaling EV infrastructure SaaS from 0 to 1 with a focus on operational reliability.",
     featured: false,
   },
   {
-    title: "PM Transition",
+    title: "Kazam EV Tech (2023 - 2024) PM Transition",
     desc: "Bridging the critical gap between ops-heavy processes and engineering velocity.",
     featured: false,
   },
   {
-    title: "Data Engineering",
+    title: "YouCart Services India (2020 - 2021) Data Engineering",
     desc: "Building scalable data pipelines, optimizing data workflows, and transforming raw data into actionable business insights.",
     featured: false,
   },
